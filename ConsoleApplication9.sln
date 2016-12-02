@@ -7,6 +7,11 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ConsoleApplication9", "Cons
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "dll", "dll\dll.vcxproj", "{06376AA8-7766-4E1F-9CCD-B18D35365549}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "dlluser", "ConsoleApplication1\ConsoleApplication1.vcxproj", "{ED1F4D43-3759-40EC-8C94-613630EA9CA4}"
+	ProjectSection(ProjectDependencies) = postProject
+		{06376AA8-7766-4E1F-9CCD-B18D35365549} = {06376AA8-7766-4E1F-9CCD-B18D35365549}
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -21,6 +26,10 @@ Global
 		{06376AA8-7766-4E1F-9CCD-B18D35365549}.Debug|Win32.Build.0 = Debug|Win32
 		{06376AA8-7766-4E1F-9CCD-B18D35365549}.Release|Win32.ActiveCfg = Release|Win32
 		{06376AA8-7766-4E1F-9CCD-B18D35365549}.Release|Win32.Build.0 = Release|Win32
+		{ED1F4D43-3759-40EC-8C94-613630EA9CA4}.Debug|Win32.ActiveCfg = Debug|Win32
+		{ED1F4D43-3759-40EC-8C94-613630EA9CA4}.Debug|Win32.Build.0 = Debug|Win32
+		{ED1F4D43-3759-40EC-8C94-613630EA9CA4}.Release|Win32.ActiveCfg = Release|Win32
+		{ED1F4D43-3759-40EC-8C94-613630EA9CA4}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
